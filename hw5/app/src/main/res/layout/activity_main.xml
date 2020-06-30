@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot_5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/enter_your_cv"
+        android:textAllCaps="false"
+        android:textColor="#090303"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/nname"
+        android:importantForAutofill="no"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:hint="AGE"
+        android:importantForAutofill="no"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/jop"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:hint="JOP"
+        android:importantForAutofill="no"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:hint="E-MAIL"
+        android:importantForAutofill="no"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="20dp"
+        android:hint="PHONE"
+        android:importantForAutofill="no"
+        android:textSize="23sp" />
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="5dp"
+        segmentedgroup:sc_corner_radius="15dp">
+
+
+
+    <RadioButton
+            android:id="@+id/button1"
+            style="@style/RadioButton"
+            android:layout_width="155dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="130dp"
+            android:text="@string/next"
+            android:textSize="30sp"/>
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+
+    <TextView
+        android:id="@+id/Contactme"
+        android:layout_width="162dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:singleLine="false"
+        android:text="@string/contact_us"
+        android:textColor="#B926DA"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
+
+
+

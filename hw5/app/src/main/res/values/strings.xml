@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_cv">ENTER YOUR CV !</string>
+    <string name="contact_us">contact us!</string>
+    <string name="next">NEXT</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="namee">NAME</string>
+    <string name="jop">JOP</string>
+    <string name="age">AGE</string>
+    <string name="nname">NAME</string>
+</resources>
